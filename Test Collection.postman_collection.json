@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "57fc3fcb-63fa-4e9d-a300-250abac018a9",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14861577",
+		"_collection_link": "https://crimson-shadow-203374.postman.co/workspace/My-Workspace~6363e5ae-75ab-44b4-855b-c5c0d0e674c2/collection/14861577-57fc3fcb-63fa-4e9d-a300-250abac018a9?action=share&source=collection_link&creator=14861577"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.dictionaryapi.dev/api/v2/entries/en",
+					"protocol": "https",
+					"host": [
+						"api",
+						"dictionaryapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v2",
+						"entries",
+						"en"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
